@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(255, 41, 134);
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 2em auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        .rating {
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        .rating label {
+            margin-right: 10px;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label:before {
+            content: '★';
+            font-size: 24px;
+            color: #ddd;
+        }
+
+        .rating input:checked ~ label:before,
+        .rating label:hover:before {
+            color: #f90;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cakeland Feedback</h1>
+    </header>
+    <section>
+        <form action="FeedbackServlet1" method="post">
+            <label for="Name">Name:</label>
+            <input type="text" id="name" name="Name" required>
+
+            <label for="Feedback">Feedback:</label>
+            <textarea id="feedback" name="Feedback" required></textarea>
+            
+            <input type="submit" value="SUBMIT">
+        </form>
+    </section>
+</body>
+</html>

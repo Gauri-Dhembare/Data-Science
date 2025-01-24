@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres</title>
+    <style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        background-color:rgb(255, 41, 134);
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+    }
+    .logo img {
+        width: 180px;
+        border-radius: 50px;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+    .nav-list li a:hover {
+        color: rgb(84, 84, 84);
+    }
+    .rightnav {
+        width: 30%;
+        text-align: right;
+    }
+    #search {
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid grey;
+        border-radius: 9px;
+    }
+        .COntext{
+            display: flex;
+            position:fixed;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+        .row {margin: 0 -5px;}
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+@media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+}
+        .card1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: pink;
+        }
+        .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: pink;
+        }
+        .card3 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: pink;
+        }
+        .card4 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: pink;
+        }
+        .card5 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: pink;
+        }
+    .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(0, 255, 217);
+            color: black;
+        }
+</style>
+</head>
+<body>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <div class="logo">
+                    <a href="Webapp.html"><img src= "https://yt3.googleusercontent.com/AdeLs5-kE9xOTrtXv-FrEXyv9wKrjazyiOIdjRGVEvX9y3ZZSSRxjJGfwIMJ4RkPai5XLOW_gm4=s900-c-k-c0x00ffffff-no-rj" alt="Pitcure file" width=300 height=200></a>
+                </div>
+                <li><a href="Genres.html">GENRES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="Login.html">LOG IN</a></li>
+                <li><a href="feedback.html">FEEDBACK</a></li>
+                <li><a href="order.html">ORDER</a></li>
+            </ul>
+            <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>
+            </div>
+        </nav>
+            <hr>
+            <br>
+            <br>
+            <section class="Context">
+                <center><h1>CHOCOLATE CAKES</h1></center>
+                <div class="row">
+                    <div class="column">
+                    <div class="card1">
+                        <a href="https://www.sendbestgift.com/media/images/product/7aee27e54b44e19ec46ffeec1083fc7b.jpg"><img src="https://www.sendbestgift.com/media/images/product/7aee27e54b44e19ec46ffeec1083fc7b.jpg"  style="width:50%"></a>
+                        <h4><b>Chocolate Dutch Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card1">
+                        <a href="https://www.flavoursguru.com/image/cache/catalog/catimg/primary/FGCCAKE526-260x260.jpg"><img src="https://www.flavoursguru.com/image/cache/catalog/catimg/primary/FGCCAKE526-260x260.jpg" style="width:50%"></a>
+                        <h4><b>Chocolate Overloaded Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                        <div class="card1">
+                            <a href="https://www.bakehoney.com/media/1750/conversions/15889_12-01-2021_11-45-28_name_0000Belgian-Cake-order-online-from-bakehoney.com-banner.jpg"><img src="https://www.bakehoney.com/media/1750/conversions/15889_12-01-2021_11-45-28_name_0000Belgian-Cake-order-online-from-bakehoney.com-banner.jpg" style="width:50%"></a>
+                            <h4><b>Chocolate Truffle Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card1">
+                        <a href="https://www.shreemithai.com/cdn/shop/products/FShreemithai15-01-2021-407lowrescopy_800x.jpg?v=1611572013"><img src="https://www.shreemithai.com/cdn/shop/products/FShreemithai15-01-2021-407lowrescopy_800x.jpg?v=1611572013" style="width:50%"></a>
+                        <h4><b>Black Forest Cake</b></h4>
+                    </div>
+                    </div>
+            </section>
+            <br>
+            <br>
+            <section class="Context">
+                <center><h1><b>FRUIT CAKES</b></h1></center>
+                <div class="row">
+                    <div class="column">
+                    <div class="card2">
+                        <a href="https://www.bakehoney.com/media/10103/conversions/21749_05-11-2022_12-24-14_name_0Fresh-Fruit-Cake-for-fruit-lovers-from-Haryana-banner.jpg"><img src="https://www.bakehoney.com/media/10103/conversions/21749_05-11-2022_12-24-14_name_0Fresh-Fruit-Cake-for-fruit-lovers-from-Haryana-banner.jpg" style="width:50%"></a>
+                        <h4><b>Mixed Fruit Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card2">
+                        <a href="https://cdn-media.indiacakes.com/media/catalog/product/cache/0b945dd31857d9e2e2ef055978ab9981/p/i/pineapple-cake-with-cream-half-kgs.png"><img src="https://cdn-media.indiacakes.com/media/catalog/product/cache/0b945dd31857d9e2e2ef055978ab9981/p/i/pineapple-cake-with-cream-half-kgs.png" style="width:50%"></a>
+                        <h4><b>Pineapple Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card2">
+                            <a href="https://www.bakehoney.com/media/13443/conversions/23664_05-27-2022_10-58-13_name_0blueberry-cake-banner.jpg"><img src="https://www.bakehoney.com/media/13443/conversions/23664_05-27-2022_10-58-13_name_0blueberry-cake-banner.jpg" style="width:50%"></a>
+                            <h4><b>Blue Berry Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card2">
+                        <a href="https://taubys.com/wp-content/uploads/2022/11/Taubys-New-Pics-1-300x300.png"><img src="https://taubys.com/wp-content/uploads/2022/11/Taubys-New-Pics-1-300x300.png" style="width:50%"></a>
+                        <h4><b>Strawberry Cake</b></h4>
+                    </div>
+                    </div>
+            </section>
+            <br>
+            <br>
+            <section class="Context">
+                <center><h1><b>FLAVOUR CAKES</b></h1></center>
+                <div class="row">
+                    <div class="column">
+                    <div class="card3">
+                        <a href="https://www.eg2i.com/uploads/product_image/product_1084_1.jpg"><img src="https://www.eg2i.com/uploads/product_image/product_1084_1.jpg" style="width:50%"></a>
+                        <h4><b>Rasmalai Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card3">
+                        <a href="https://www.bakehoney.com/media/15453/conversions/24671_06-08-2022_16-12-34_name_000000000000Order-online-trending-Kaju-Katli-Cake-from-bakehoney-banner.jpg"><img src="https://www.bakehoney.com/media/15453/conversions/24671_06-08-2022_16-12-34_name_000000000000Order-online-trending-Kaju-Katli-Cake-from-bakehoney-banner.jpg"  style="width:50%"></a>
+                        <h4><b>Kaju Katli Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card3">
+                            <a href="https://bakersoven.in/uploads/all/9L9c4PpDKAHV8ri53CmsGIYEkLWxpfduFUy5FvOT.jpg"><img src="https://bakersoven.in/uploads/all/9L9c4PpDKAHV8ri53CmsGIYEkLWxpfduFUy5FvOT.jpg" style="width:50%"></a>
+                            <h4><b>Masala Paan Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card3">
+                        <a href="https://jessicalaurencakes.co.uk/wp-content/uploads/2022/05/Biscoff.jpg"><img src="https://jessicalaurencakes.co.uk/wp-content/uploads/2022/05/Biscoff.jpg" style="width:50%"></a>
+                        <h4><b>Biscoff Cake</b></h4>
+                    </div>
+                    </div>
+            </section>
+            <br>
+            <br>
+            <section class="context">
+                <center><h1><b>THEME CAKES</b></h1></center>
+                <div class="row">
+                    <div class="column">
+                    <div class="card4">
+                        <a href="hhttps://faridabadcake.com/wp-content/uploads/2022/03/doraemon-cartoon-cake.jpeg"><img src="https://faridabadcake.com/wp-content/uploads/2022/03/doraemon-cartoon-cake.jpeg" style="width:50%"></a>
+                        <h4><b>Doraemon Theme Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card4">
+                        <a href="https://www.cakesandbakes.co.uk/files/10000/avengers-cake.jpg"><img src="https://www.cakesandbakes.co.uk/files/10000/avengers-cake.jpg" style="width:50%"></a>
+                        <h4><b>Avengers Theme Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card4">
+                            <a href="https://www.bakehoney.com/media/30174/conversions/30197_10-13-2022_10-22-30_name_0025th-Anniversary-Theme-Cake-banner.jpg"><img src="https://www.bakehoney.com/media/30174/conversions/30197_10-13-2022_10-22-30_name_0025th-Anniversary-Theme-Cake-banner.jpg" style="width:50%"></a>
+                            <h4><b>Anniversary Theme Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card4">
+                        <a href="https://pic.warmoven.in/catalog/product/cache/4e14bcb566d25893ae7201d4dbdc22fd/image/1945dcff/pink-pinata-cake.jpg"><img src="https://pic.warmoven.in/catalog/product/cache/4e14bcb566d25893ae7201d4dbdc22fd/image/1945dcff/pink-pinata-cake.jpg" style="width:50%"></a>
+                        <h4><b>Heart Pinata Cake</b></h4>
+                    </div>
+                    </div>
+            </section>
+            <br>
+            <br>
+            <section class="Context">
+                <center><h1><b>DESIGNED CAKES</b></h1></center>
+                <div class="row">
+                    <div class="column">
+                    <div class="card5">
+                        <a href="https://assets.winni.in/product/primary/2014/8/34995.jpeg?dpr=2&w=220"><img src="https://assets.winni.in/product/primary/2014/8/34995.jpeg?dpr=2&w=220" style="width:50%"></a>
+                        <h4><b>Make-Up Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card5">
+                        <a href="https://bkmedia.bakingo.com/sq-3-tier-vanilla-party-cake-A_0.jpg"><img src="https://bkmedia.bakingo.com/sq-3-tier-vanilla-party-cake-A_0.jpg" style="width:50%"></a>
+                        <h4><b>3 Tier Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card5">
+                        <a href="https://misterbaker.com/cdn/shop/products/PRINCESSPHOTO_SKIRT_88796f2a-ffff-4063-bf87-1598c141561c_1024x1024.jpg?v=1645454209"><img src="https://misterbaker.com/cdn/shop/products/PRINCESSPHOTO_SKIRT_88796f2a-ffff-4063-bf87-1598c141561c_1024x1024.jpg?v=1645454209" style="width:50%"></a>
+                        <h4><b>Photo Pront Cake</b></h4>
+                    </div>
+                    </div>
+                    <div class="column">
+                    <div class="card5">
+                        <a href="https://www.bakehoney.com/media/3367/conversions/19480_03-28-2022_16-56-32_name_000000000000000000000Untitled-design-(60)-banner.jpg"><img src="https://www.bakehoney.com/media/3367/conversions/19480_03-28-2022_16-56-32_name_000000000000000000000Untitled-design-(60)-banner.jpg" style="width:50%"></a>
+                        <h4><b>BTS Theme Cake</b></h4>
+                    </div>
+                    </div>
+            </section>
+            <footer class="background">
+                <p class="text-footer">
+                Copyright ©-All rights are reserved
+                </p>
+            </footer>
+</body>
+</html>

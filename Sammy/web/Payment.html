@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(255, 41, 134);
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 2em auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cakeland Payment Information</h1>
+    </header>
+    <section>
+        <form action="PaymentServlet" method="post">
+            <label for="Rupees">Price of cake:</label>
+            <input type="text" id="rupees" name="Rupees" required>
+
+            <label for="Mode">Mode of Payment:</label>
+            <input type="text" id="mode" name="Mode" required>
+
+            
+
+            <input type="submit" name="action" value="CONFIRM PAYMENT">
+            <input type="submit" name="action" value="CANCEL PAYMENT">
+          
+        </form>
+    </section>
+</body>
+</html>
